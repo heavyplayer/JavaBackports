@@ -6,12 +6,13 @@
  */
  
 package javabackports.util.concurrent;
+
 import java.util.AbstractQueue;
 import java.util.Collection;
 import java.util.ConcurrentModificationException;
 import java.util.Iterator;
 import java.util.NoSuchElementException;
-import java.util.concurrent.BlockingDeque;
+import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;
@@ -47,7 +48,7 @@ import java.util.concurrent.locks.ReentrantLock;
  */
 public class LinkedBlockingDeque<E>
     extends AbstractQueue<E>
-    implements BlockingDeque<E>,  java.io.Serializable {
+    implements BlockingQueue<E>,  java.io.Serializable {
  
     /*
      * Implemented as a simple doubly-linked list protected by a
