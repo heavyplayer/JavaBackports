@@ -5,9 +5,16 @@
  * SUN PROPRIETARY/CONFIDENTIAL. Use is subject to license terms.
  */
  
-package java.util.concurrent;
-import java.util.*;
-import java.util.concurrent.locks.*;
+package javabackports.util.concurrent;
+import java.util.AbstractQueue;
+import java.util.Collection;
+import java.util.ConcurrentModificationException;
+import java.util.Iterator;
+import java.util.NoSuchElementException;
+import java.util.concurrent.BlockingDeque;
+import java.util.concurrent.TimeUnit;
+import java.util.concurrent.locks.Condition;
+import java.util.concurrent.locks.ReentrantLock;
  
 /**
  * An optionally-bounded {@linkplain BlockingDeque blocking deque} based on
