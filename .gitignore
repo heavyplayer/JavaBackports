@@ -1,6 +1,4 @@
 .project
 .classpath
-.fatjar
-.externalToolBuilders/
 bin/
 *.jar
