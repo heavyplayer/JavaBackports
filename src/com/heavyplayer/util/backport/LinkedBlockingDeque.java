@@ -5,7 +5,7 @@
  * SUN PROPRIETARY/CONFIDENTIAL. Use is subject to license terms.
  */
  
-package javabackports.util.concurrent;
+package com.heavyplayer.util.backport;
 
 import java.util.AbstractQueue;
 import java.util.Collection;
