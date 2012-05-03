@@ -5,3 +5,4 @@ We develop for many Android versions. Sometimes, there's an awesome Java class w
 ## Currently includes
 
 * LinkedBlockingDeque (no longer limited to 2.3+)
+* Deque (no longer limited to 2.3+)
